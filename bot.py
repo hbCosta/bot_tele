@@ -9,7 +9,7 @@ TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Comando /start
 async def start(update, context):
-    await update.message.reply_text("Envia a frase, ruivinha")
+    await update.message.reply_text("Envia logo essa frase!!")
 
 # Quando o usuário mandar mensagem
 async def traduzir(update, context):
